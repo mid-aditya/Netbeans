@@ -118,7 +118,7 @@ public class Tugas3 extends javax.swing.JFrame {
         Tugas2 modul=new Tugas2();
         modul.setVisible(true);
         this.dispose();
-        JOptionPane.showConfirmDialog(null, " Selamat Anda Berhasil Login", "Login", JOptionPane.DEFAULT_OPTION);
+        JOptionPane.showConfirmDialog(null, "Username:" + Username + "\n Password:" + UPassword, "Login", JOptionPane.DEFAULT_OPTION);
         }else{
         JOptionPane.showConfirmDialog(null, " Maaf user dan Password Salah", "Login", JOptionPane.DEFAULT_OPTION);
         }
